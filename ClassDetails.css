@@ -1,0 +1,143 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #343A40;
+    color: white;
+    margin: 0;
+}
+
+/* Style the container div */
+.container {
+    
+    padding: 20px;
+}
+
+/* Style the form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style select elements */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+
+/* Style the "Add Class" button */
+button[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the Class List container */
+#classList {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the Class List heading */
+#classList h2 {
+    background-color: #343A40;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+}
+
+/* Style the class list items */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the "Delete" buttons */
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #c82333;
+}
+/* Add this CSS to your existing CSS file or a <style> block in your HTML */
+
+/* Style for the button container */
+#button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align button to the right */
+    padding: 10px; /* Adjust as needed */
+}
+
+/* Style for the button */
+#studentDetailsButton {
+    background-color: #007BFF; /* Change to your desired button color */
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjust as needed */
+    cursor: pointer;
+}
+
+/* Optional: Add hover effect for the button */
+#studentDetailsButton:hover {
+    background-color: #0056b3; /* Change to your desired hover color */
+}

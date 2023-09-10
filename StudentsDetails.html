@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./StudentDetails.css">
+    <title>StudentDetails</title>
+</head>
+<body>
+    <h1>Student Details</h1>
+    <button id="markAttendanceButton" onclick="window.location.href = './Attendene.html'">Mark Attendance</button>
+
+    <!-- Form for adding a new student -->
+    <div id="addStudentForm" class="container" >
+        <h2>Add Student</h2>
+       
+        <label for="studentName">Name:</label>
+        <input type="text" id="studentName" required><br><br>
+
+        <label for="fatherName">Father's Name:</label>
+        <input type="text" id="fatherName" required><br><br>
+
+        <label for="rollNumber">Roll Number:</label>
+        <input type="text" id="rollNumber" required><br><br>
+
+        <label for="contactNumber">Contact Number:</label>
+        <input type="text" id="contactNumber" required pattern="^\d{10}$" placeholder="Enter a 10-digit phone number" title="Please enter a valid 10-digit phone number"><br><br>
+
+        <label for="cnicNumber">CNIC Number:</label>
+        <input type="text" id="cnicNumber" required pattern="^\d{5}-\d{7}-\d{1}$" placeholder="e.g., 12345-1234567-1" title="Please enter a valid CNIC number in the format 12345-1234567-1"><br><br>
+
+
+        <!-- Image upload and preview -->
+     <!-- Image upload and preview -->
+  
+
+        <label for="courseName">Course Name:</label>
+        <select id="courseName" required>
+            <option value="" disabled selected>Select a Course</option>
+            <option value="course1">Course 1</option>
+            <option value="course2">Course 2</option>
+            <option value="course3">Course 3</option>
+            <option value="course4">Course 4</option>
+            <option value="course5">Course 5</option>
+        </select><br><br>
+
+        <label for="assignedClass">Assigned Class:</label>
+        <select id="assignedClass" required>
+            <option value="" disabled selected>Select a Class</option>
+            <option value="class1">Class 1</option>
+            <option value="class2">Class 2</option>
+            <option value="class3">Class 3</option>
+            <option value="class4">Class 4</option>
+            <option value="class5">Class 5</option>
+        </select><br><br>
+
+        <button type="submit">Add Student</button>
+    </div>
+
+    <div class="container">
+    <!-- Display existing student details -->
+    <h2>View Students</h2>
+    <ul id="studentList">
+        <!-- Student details will be displayed here -->
+    </ul>
+    </div>
+    
+    <script type="module" src="./StudentDetails.js"></script>
+    <script type="module" src="./config.js"></script>
+</body>
+</html>

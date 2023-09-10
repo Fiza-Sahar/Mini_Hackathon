@@ -1,0 +1,145 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+/* Style the main container */
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Style the form header */
+h2 {
+    color: green;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style labels and input fields */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the file input */
+/* Style the file input container */
+.file-input-container {
+    position: relative;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+/* Style the file input */
+.file-input-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Style the circular image container */
+.circular-image-container {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Style the displayed image */
+.circular-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Style the student list */
+#studentList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Style each student item */
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    
+}
+/* styles.css */
+
+/* Style for the container */
+.header-container {
+    text-align: center; /* Center-align the content */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add spacing between the heading and button */
+}
+
+/* Style for the "Mark Attendance" button */
+#markAttendanceButton {
+    background-color: #007BFF; /* Change to your desired button color */
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjust as needed */
+    cursor: pointer;
+}

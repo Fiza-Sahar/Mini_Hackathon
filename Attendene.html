@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Attendence.css">
+    <title>Attendance Page</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Mark Attendance</h1>
+    <label>Select Class:</label>
+    <select id="classSelect">
+        <option value="" disabled selected>Select a class</option>
+        <option value="class1">Class 1</option>
+        <option value="class2">Class 2</option>
+        <!-- Add more options as needed -->
+    </select>
+
+   
+    <!-- Input for Roll Number -->
+    <label>Enter Roll Number:</label>
+    <input type="text" id="rollNumberInput">
+
+    <!-- Dropdown for Attendance -->
+    <label>Attendance:</label>
+    <select id="attendanceSelect">
+        <option value="Present">Present</option>
+        <option value="Absent">Absent</option>
+        <option value="Late">Late</option>
+        <option value="Leave">Leave</option>
+    </select>
+
+    <!-- Admin Password (for certain actions) -->
+    <label>Admin Password:</label>
+    <input type="password" id="adminPassword">
+
+    <!-- Button to Submit Attendance -->
+    <button onclick="markAttendance()">Submit Attendance</button>
+</div>
+<script src="./Attendence.js"></script>
+</body>
+</html>

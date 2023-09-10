@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Details</title>
+    <link rel="stylesheet" type="text/css" href="./ClassDetails.css">
+</head>
+<body>
+    <h1>Class Details</h1>
+     <!-- Navigation Bar -->
+     <div id="button-container">
+        <!-- Button for student details -->
+        <button id="studentDetailsButton">Student Details</button>
+    </div>
+
+
+    <div class="container">
+        <!-- Form to add class details -->
+        <form id="classForm">
+            <label for="classSelect">Select a Class:</label>
+            <select id="classSelect">
+                <option value="" disabled selected>Select a Class</option>
+                <option value="Class 1">Class 1</option>
+                <option value="Class 2">Class 2</option>
+                <option value="Class 3">Class 3</option>
+                <option value="Class 4">Class 4</option>
+                <option value="Class 5">Class 5</option>
+            </select></br></br>
+
+            <label for="scheduleSelect">Select Schedule:</label>
+            <select id="scheduleSelect">
+                <option value="" disabled selected>Select a Schedule</option>
+                <option value="9am - 11am">9am - 11am</option>
+                <option value="11am - 1pm">11am - 1pm</option>
+                <option value="1pm - 3pm">1pm - 3pm</option>
+                <option value="3pm - 5pm">3pm - 5pm</option>
+                <option value="5pm - 7pm">5pm - 7pm</option>
+            </select><br><br>
+
+            <label for="teacherSelect">Select Teacher's Name:</label>
+            <select id="teacherSelect">
+                <option value="" disabled selected>Select a teacher</option>
+                <option value="Miss Hina">Miss Hina</option>
+                <option value="Miss Iqra">Miss Iqra</option>
+                <option value="Sir Ishaq">Sir Ishaq</option>
+                <option value="Sir Ghous">Sir Ghous</option>
+                <option value="Miss Tayyaba">Miss Tayyaba</option>
+            </select></br></br>
+            
+
+            <label for="sectionSelect">Select Section Name:</label>
+            <select id="sectionSelect">
+                <option value="" disabled selected>Select a Batch</option>
+                <option value="Section-A">Section-A</option>
+                <option value="Section-B">Section-B</option>
+                <option value="Section-C">Section-C</option>
+                <option value="Section-D">Section-D</option>
+                <option value="Section-E">Section-E</option>
+            </select>
+            <br><br>
+
+            <label for="courseSelect">Select Course Name:</label>
+            <select id="courseSelect">
+                <option value="" disabled selected>Select a course</option>
+                <option value="Mobile and web development">Mobile and web development</option>
+                <option value="Graphic Designing">Graphic Designing</option>
+                <option value="Block Chain">Block Chain</option>
+                <option value="Artificial intelligence">Artificial intelligence</option>
+                <option value="Cloud Native">Cloud Native</option>
+            </select>
+            <br><br>
+
+            <label for="batchSelect">Select Batch Number:</label>
+            <select id="batchSelect">
+                <option value="" disabled selected>Select a Batch</option>
+                <option value="batch-1">Batch-1</option>
+                <option value="batch-2">Batch-2</option>
+                <option value="batch-3">Batch-3</option>
+                <option value="batch-4">Batch-4</option>
+                <option value="batch-5">Batch-5</option>
+            </select><br><br>
+
+            <button type="submit" id="add-class">Add Class</button>
+        </form>
+    </div>
+
+    <div id="classList" class="container">
+        <!-- Display class details -->
+        <h2>Class List</h2>
+        <ul>
+            <li>
+                <button class="edit-button">Edit</button>
+                <button class="delete-button">Delete</button>
+            </li>
+        </ul>
+    </div>
+
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./ClassDetails.js"></script>
+    
+</body>
+</html>
